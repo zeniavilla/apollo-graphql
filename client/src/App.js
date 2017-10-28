@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import {
+  ApolloClient,
+  gql,
+  graphql,
+  ApolloProvider,
+} from 'react-apollo';
+
+// Stylesheets
 import './App.css';
 
 // Components
 import ChannelsList from './ChannelsList';
+
+const client = new ApolloClient();
 
 class App extends Component {
   render() {
