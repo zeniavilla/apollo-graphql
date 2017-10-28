@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ChannelsList = () =>
-  <ul>
+  <ul className="Item-list">
     <li>Channel 1</li>
     <li>Channel 2</li>
   </ul>
